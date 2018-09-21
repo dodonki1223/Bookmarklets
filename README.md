@@ -7,3 +7,7 @@
 
 ### GetFavicon
 - 現在開いているURLからFaviconを取得する
+
+### SearchWikipediaGoogleImg
+- WikipediaとGoogle画像検索の両方を検索する
+
