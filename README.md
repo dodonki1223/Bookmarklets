@@ -11,3 +11,5 @@
 ### SearchWikipediaGoogleImg
 - WikipediaとGoogle画像検索の両方を検索する
 
+### ImageList
+- 現在開いているページから画像の一覧を表示するページを生成する
