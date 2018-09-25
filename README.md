@@ -13,3 +13,6 @@
 
 ### ImageList
 - 現在開いているページから画像の一覧を表示するページを生成する
+
+### ImgListOfGoogleImg
+- 現在開いているURLに表示されている画像をGoogle画像検索で表示する
