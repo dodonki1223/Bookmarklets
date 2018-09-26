@@ -16,3 +16,6 @@
 
 ### ImgListOfGoogleImg
 - 現在開いているURLに表示されている画像をGoogle画像検索で表示する
+
+### UpperDirImgListOfGoogleImg
+- 現在開いているURLの１つ上の階層のURLに表示されている画像をGoogle画像検索で表示する
