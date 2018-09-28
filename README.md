@@ -22,3 +22,6 @@
 
 ### DomainTopImgListOfGoogleImg
 - 現在開いているURLのドメインのトップのURLに表示されている画像をGoogle画像検索で表示する
+
+### SearchToSite
+- サイト内（現在のURL配下）から特定のキーワードで検索する
