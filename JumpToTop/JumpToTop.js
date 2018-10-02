@@ -1,0 +1,3 @@
+javascript: (function() {
+    location.pathname="";
+})();
