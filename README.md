@@ -31,3 +31,9 @@
 
 ### OpenSmallWindow
 - ディスプレイの1/4のサイズのウィンドウで現在のページを開く
+
+### SearchYahooRouteInfo
+- Yahoo路線情報検索
+
+
+
