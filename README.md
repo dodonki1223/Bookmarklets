@@ -2,6 +2,9 @@
 
 ## 個人的に作成したブックマークレット集です
 
+### MyStrongestSearchTool
+- さまざまな検索ツールを提供するブックマークレット
+
 ### CreateQRCodeForCurrentURL
 - 現在開いているURLからQRコードを作成する
 
@@ -33,7 +36,4 @@
 - ディスプレイの1/4のサイズのウィンドウで現在のページを開く
 
 ### SearchYahooRouteInfo
-- Yahoo路線情報検索
-
-
-
+- Yahooの路線情報検索を使用し入力された時刻から３本、終電から前３本の情報を表示する
