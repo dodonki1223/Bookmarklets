@@ -37,3 +37,6 @@
 
 ### SearchYahooRouteInfo
 - Yahooの路線情報検索を使用し入力された時刻から３本、終電から前３本の情報を表示する
+
+### SearchGoogleNotJapanese
+- Google検索で日本語のページを除いて取得する
