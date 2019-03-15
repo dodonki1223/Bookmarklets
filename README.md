@@ -40,3 +40,6 @@
 
 ### SearchGoogleNotJapanese
 - Google検索で日本語のページを除いて取得する
+
+### SearchWithinOneYear
+- Google検索で検索した結果から１年以内のページを検索する
