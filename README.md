@@ -43,3 +43,9 @@
 
 ### SearchWithinOneYear
 - Google検索で検索した結果から１年以内のページを検索する
+
+### JiraBackLogSlimDisplay
+- JIRAのバックログをスリムな表示にする
+
+### JiraBackLogTimeCalc
+- JIRAのバックログの時間の合計値を出力する
