@@ -1,17 +1,16 @@
 javascript: (() => {
   const elems = document.querySelectorAll('span.ghx-extra-field-content');
+  function changeStyle(elem, label, color) {
+    if (elem.innerText !== label) return;
+    let target = elem.parentElement.parentElement.parentElement.querySelector('.ghx-inner');
+    target.setAttribute('style', 'color: ' + color + ';');
+    if (target.innerText.indexOf(label) != -1) return;
+    target.innerText = '★' + label + '★ ' + target.innerText.substring('★' + label + '★ '.length);
+  }
   setInterval(() => {
     Array.prototype.forEach.call(elems, function (elem) {
-      if (elem.innerText == '割り込み') {
-        let target = elem.parentElement.parentElement.parentElement.querySelector('.ghx-inner');
-        target.setAttribute('style', 'color: green;')
-        target.innerText = '★割り込み★ ' + target.innerText.substring('★割り込み★ '.length); 
-      } else if (elem.innerText == '期限付き') {
-        let target = elem.parentElement.parentElement.parentElement.querySelector('.ghx-inner');
-        target.setAttribute('style', 'color: red;')
-        target.innerText = '★期限付き★ ' + target.innerText.substring('★期限付き★ '.length); 
-        elem.parentElement.parentElement.parentElement.querySelector('.ghx-inner').setAttribute('style', 'color: red;')
-      }
+      changeStyle(elem, '割り込み', 'green');
+      changeStyle(elem, '期限付き', 'red');
     });
     const label = document.querySelectorAll('div.ghx-plan-extra-fields.ghx-plan-extra-fields-1.ghx-row');
     label.forEach(label => label.setAttribute('style', 'display: none;'));
