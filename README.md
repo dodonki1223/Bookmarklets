@@ -49,3 +49,6 @@
 
 ### JiraBackLogTimeCalc
 - JIRAのバックログの時間の合計値を出力する
+
+### DeleteCommentForGithub
+- GitHubのプルリクの `Files changed` 画面のコメントを切り替える
