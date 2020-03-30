@@ -52,3 +52,6 @@
 
 ### DeleteCommentForGithub
 - GitHubのプルリクの `Files changed` 画面のコメントを切り替える
+
+### SpreadOutPullRequestsWidth
+- GitHubのプルリク画面の横幅を画面サイズに合わせる
