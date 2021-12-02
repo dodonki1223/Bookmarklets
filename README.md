@@ -55,3 +55,6 @@
 
 ### SpreadOutPullRequestsWidth
 - GitHubのプルリク画面の横幅を画面サイズに合わせる
+
+### ShowPullRequests
+- プルリクエストの画面でプルリクのタイトルとURLを Console に一括表示する
